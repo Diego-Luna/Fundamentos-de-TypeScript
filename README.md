@@ -54,4 +54,45 @@ Con el siguiente comando lo instalaremos de manera global:
   tsc --watch your_file.ts
 ```
 
+## Configurar Typescript
+* Especifica la raiz de un proyecto TS
 
+* Permite configurar opciones para el compilador
+
+Para crear este archivo en cualquier proyecto:
+
+```
+  tsc --init
+```
+
+El archivo base es este:
+
+```
+  tsconfig.json
+```
+
+```javascript
+  {
+	"extends": "./config/base"
+	"compilerOptions":{
+		"target": "es6",
+		"module": "commonjs"
+		"strict": true,
+		"removeComments": true
+	},
+	"include":[
+		"src/**/*.ts"
+	],
+	"exclude": [
+		"node_modules",
+		"**/*.test.ts"
+	]
+}
+```
+
+Una vez que este archivo es generado, ejecutamos:
+
+
+* tsc // Busa la configuracion dentro del proyecto
+* tsc --project folder // Especifica el directorio donde esta la configuracion
+* tsc file.ts // Omite la configuracion

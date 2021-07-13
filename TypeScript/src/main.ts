@@ -43,7 +43,7 @@ let username: string = "Luna";
 username = 'Diego';
 
 // Template String
-// uso de back-tick ` 
+// uso de back-tick `
 let userInfo: string;
 userInfo = `
   User info:

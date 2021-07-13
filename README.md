@@ -114,13 +114,16 @@ Una vez que este archivo es generado, ejecutamos:
 
 ### Tipos de datos primitivos:
 
- * Number
- * Boolean
- * String
+ * Number 	-> cualquier numero
+	 * hexadicimal
+	 * binario
+	 * octal
+ * Boolean	-> cualquier numero
+ * String		-> cualquier cadena de texto
  * Array
  * Tuple
  * Enum
- * Any
+ * Any  		-> acepta cualquier tipo de dato
  * Void
  * Null
  * Undefined

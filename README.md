@@ -128,4 +128,5 @@ Una vez que este archivo es generado, ejecutamos:
  * Null			-> es la no existencia de la variable.Se pueden asumir como subtipos de los otros tipos de datos.
  * Undefined	-> es una variable sin ningun valor.Se pueden asumir como subtipos de los otros tipos de datos.
  * Never		-> Representa el tipo de valor que nunca ocurre.
- * Object		-> es el tipo de dato que representa un valor no primitivo
+ * object		-> Es el tipo de dato que representa un valor no primitivo
+ * Object		-> Clase Object JS

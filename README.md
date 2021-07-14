@@ -118,15 +118,15 @@ Una vez que este archivo es generado, ejecutamos:
 	 * hexadicimal
 	 * binario
 	 * octal
- * Boolean	-> cualquier numero
- * String		-> cualquier cadena de texto
- * Array		-> un arreglo para contener un conjunto de datos
+ * Boolean	-> cualquier numero.
+ * String		-> cualquier cadena de texto.
+ * Array		-> un arreglo para contener un conjunto de datos.
  * Tuple		-> es un array de elementos que están tipados.
- * Enum
- * Any  		-> acepta cualquier tipo de dato
- * Void			-> es lo opuesto a nay: representa la ausencia de tipo, pero se usa como tipo de retorno en funciones
+ * Enum			-> permiten definir un conjunto de constantes con nombre.
+ * Any  		-> acepta cualquier tipo de dato.
+ * Void			-> es lo opuesto a nay: representa la ausencia de tipo, pero se usa como tipo de retorno en funciones.
  * Null			-> es la no existencia de la variable.Se pueden asumir como subtipos de los otros tipos de datos.
  * Undefined	-> es una variable sin ningun valor.Se pueden asumir como subtipos de los otros tipos de datos.
  * Never		-> Representa el tipo de valor que nunca ocurre.
- * object		-> Es el tipo de dato que representa un valor no primitivo
- * Object		-> Clase Object JS
+ * object		-> Es el tipo de dato que representa un valor no primitivo.
+ * Object		-> Clase Object JS.

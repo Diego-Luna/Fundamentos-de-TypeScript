@@ -125,7 +125,7 @@ Una vez que este archivo es generado, ejecutamos:
  * Enum
  * Any  		-> acepta cualquier tipo de dato
  * Void			-> es lo opuesto a nay: representa la ausencia de tipo, pero se usa como tipo de retorno en funciones
- * Null			->
- * Undefined	->
+ * Null			-> es la no existencia de la variable.Se pueden asumir como subtipos de los otros tipos de datos.
+ * Undefined	-> es una variable sin ningun valor.Se pueden asumir como subtipos de los otros tipos de datos.
  * Never		-> Representa el tipo de valor que nunca ocurre.
- * Object
+ * Object		-> es el tipo de dato que representa un valor no primitivo

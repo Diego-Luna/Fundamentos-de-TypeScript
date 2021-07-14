@@ -120,7 +120,7 @@ Una vez que este archivo es generado, ejecutamos:
 	 * octal
  * Boolean	-> cualquier numero
  * String		-> cualquier cadena de texto
- * Array
+ * Array		-> un arreglo para contener un conjunto de datos
  * Tuple
  * Enum
  * Any  		-> acepta cualquier tipo de dato

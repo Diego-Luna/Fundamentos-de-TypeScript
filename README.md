@@ -121,7 +121,7 @@ Una vez que este archivo es generado, ejecutamos:
  * Boolean	-> cualquier numero
  * String		-> cualquier cadena de texto
  * Array		-> un arreglo para contener un conjunto de datos
- * Tuple
+ * Tuple		-> es un array de elementos que están tipados.
  * Enum
  * Any  		-> acepta cualquier tipo de dato
  * Void			-> es lo opuesto a nay: representa la ausencia de tipo, pero se usa como tipo de retorno en funciones

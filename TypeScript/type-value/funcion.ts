@@ -43,5 +43,28 @@ let createPic = (tiitle: string, data: string, size: SquareSizes): object => {
 
 const picture = createPic("MoonMakers session", "2020-03-19", "100x100");
 
-console.log("picture: ", picture );
+console.log("picture: ", picture);
 
+
+// tipo de retorno con TypeScript
+
+function handleErrorTypeScript(code: number, message: string): never | string {
+  // procesamiento del codigo, mesaje
+  if (message === "error") {
+    throw new Error(`${message}. Code Error: ${code} `);
+
+  } else {
+    return "An error has occurred";
+  }
+}
+
+try {
+  let result = handleErrorTypeScript(200, "ok"); // String
+  console.log("result", result);
+
+  result = handleErrorTypeScript(404, "error");  // never
+  console.log("result", result);
+
+} catch (error) {
+
+}

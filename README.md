@@ -131,6 +131,10 @@ Una vez que este archivo es generado, ejecutamos:
  * object		-> Es el tipo de dato que representa un valor no primitivo.
  * Object		-> Clase Object JS.
 
+Null y undefined se consideran subtipos de void
+
+También que null y undefined son subtipos para el resto de tipos de datos que hemos estudiado
+
 ## Funciones en TS
 
 * Los parametros en las funciones son tipados

@@ -144,3 +144,9 @@ También que null y undefined son subtipos para el resto de tipos de datos que h
 ## Interfaces
 
 Las interfaces en TypeScript constituyen una forma poderosa de definir "contratos" tanto para tu proyecto, como para el código externo del mismo.
+
+### Interfaces: Propiedades de solo lectura
+
+Algunas propiedades de la interfaz podrían no ser modificacbles una vez creado el objeto.
+
+Esto es posible usando "readonly" antes del nomrbe de la propiedad.

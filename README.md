@@ -140,3 +140,7 @@ También que null y undefined son subtipos para el resto de tipos de datos que h
 * Los parametros en las funciones son tipados
 * Se pueden definir parametros opcionales
 * Se puede definir que tipo de datos devolvera la funcion
+
+## Interfaces
+
+Las interfaces en TypeScript constituyen una forma poderosa de definir "contratos" tanto para tu proyecto, como para el código externo del mismo.

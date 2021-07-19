@@ -150,3 +150,8 @@ Las interfaces en TypeScript constituyen una forma poderosa de definir "contrato
 Algunas propiedades de la interfaz podrían no ser modificacbles una vez creado el objeto.
 
 Esto es posible usando "readonly" antes del nomrbe de la propiedad.
+
+
+## Extensión de interfaces
+
+Las interfaces pueden extenderce unas de otras.Esto permite copiar los miembros ya definidos en una interfaz a otra. ganando flexibilidad y reusabilidad de componentes.

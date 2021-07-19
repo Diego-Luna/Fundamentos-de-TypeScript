@@ -130,3 +130,9 @@ Una vez que este archivo es generado, ejecutamos:
  * Never		-> Representa el tipo de valor que nunca ocurre.
  * object		-> Es el tipo de dato que representa un valor no primitivo.
  * Object		-> Clase Object JS.
+
+## Funciones en TS
+
+* Los parametros en las funciones son tipados
+* Se pueden definir parametros opcionales
+* Se puede definir que tipo de datos devolvera la funcion

@@ -176,4 +176,22 @@ TypeScript define una manera propia de declarar o marcar un miembro como privado
 ## Metodos Set y Get
 TypeScript soporta los modelos accesores "set", "get" como una forma de interceptar los accesos a los miembros privados de un objeto.
 
+## Herencia de Clases y Miempros Protegidos
+TypeScript soporta este patron comun en el mundo de la POO.
 
+Implementa la habilidad de extender codigo de clases existentes a traves de la "herencia".
+
+Para eredar una clase a otra usan la palabra "extends". Para poner los valores a la mitad de publicos y privados usa "protected".
+
+## Clases Abstractas
+Las clases Abstractas son la base donde otras clases podrian derivarse. A diferencia de una interfaz una clase abstracta puede implementar funciones para sus instancias.
+
+La palabra reservada es "abstract".
+
+## Propiedades Estaticas y Propiedades de solo Lectura.
+
+Las clases por lo general definen atributos y metodos aplicables a las instancias de las mismas.
+
+A través de la palabra reservada "static" se puede definit un miembro visible a nivel de clase.
+
+Al igual que las interfaces, podemos usar la palabra reservada "readonly" para marcar el miembro de una clase como solo lectura.

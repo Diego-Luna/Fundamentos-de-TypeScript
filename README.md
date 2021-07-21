@@ -162,3 +162,14 @@ Las interfaces pueden extenderce unas de otras.Esto permite copiar los miembros 
 A partir de ECMAScript 2015 es posible construir clases y hacer uso del paradigma de la Programacion Orientada a Objetos en JavaScript.
 
 TypeScript permite aplicar estas tecnicas sin tener que esperar por otra version.
+
+### Clases Miembors Publicos
+
+TypeScript define un modificador de acceso público por defecto para los miembros de clase.
+
+Tambien es posible marcar un miembro como publico usando la palabra reservada "public".
+
+### Clases Miembors Privados
+
+TypeScript define una manera propia de declarar o marcar un miembro como privado usando la palabra reservada "private".
+

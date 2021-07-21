@@ -173,3 +173,7 @@ Tambien es posible marcar un miembro como publico usando la palabra reservada "p
 
 TypeScript define una manera propia de declarar o marcar un miembro como privado usando la palabra reservada "private".
 
+## Metodos Set y Get
+TypeScript soporta los modelos accesores "set", "get" como una forma de interceptar los accesos a los miembros privados de un objeto.
+
+

@@ -216,3 +216,9 @@ Los miembros de modulo interactuan con el uso de las palabras reservadas "import
 Idealmente, un archivo deberia tener un proposito o responsavilidad unica: definir una clase, una interfaz, un enumerado, etc.
 
 Esto mejora la legibilidad de codigo, facilita su lectura, testing y favorece su mantenimiento.
+
+## Resolviendo Modulos
+
+TypeScript resuelve la ubicacion de modulos observando referencias relativas y no relativas.
+
+Posteriormente intenta localizar el modulo usando una estrategia de resolucion de modulos.

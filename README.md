@@ -210,3 +210,9 @@ Podemos tomar criterios en torno a la funcionalidad, features, utilitarios, mode
 
 Los miembros de modulo interactuan con el uso de las palabras reservadas "import" y "export".
 
+
+## Principio de Responsabilidad Unica
+
+Idealmente, un archivo deberia tener un proposito o responsavilidad unica: definir una clase, una interfaz, un enumerado, etc.
+
+Esto mejora la legibilidad de codigo, facilita su lectura, testing y favorece su mantenimiento.
